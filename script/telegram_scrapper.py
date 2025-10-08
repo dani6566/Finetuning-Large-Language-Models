@@ -48,8 +48,7 @@ async def main():
         channels = [
             '@sinayelj'
             
-        ]
-        
+        ]    
         # Iterate over channels and scrape data into the single CSV file
         for channel in channels:
             await scrape_channel(client, channel, writer, media_dir)
